@@ -1,10 +1,12 @@
 # `str` - a Basic string library for browser and Node.
 
-```shell
+![build status](https://api.travis-ci.org/theomjones/str.svg?branch=master)
+
+<!-- ```shell
 yarn add str
 # OR
 npm install str --save
-```
+``` -->
 
 ```js
 // Assert input is a string.
