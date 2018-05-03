@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/Cellar/node/9.11.1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js publish --new-version 0.1.0
+  /usr/local/Cellar/node/9.11.1/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js publish --access public
 
 PATH: 
-  /Users/Theo/Source/open-source/str/node_modules/.bin:/Users/Theo/Source/open-source/node_modules/.bin:/Users/Theo/Source/node_modules/.bin:/Users/Theo/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/Cellar/node/9.11.1/bin:/Users/Theo/go/bin:/usr/local/share/npm/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Postgres.app/Contents/Versions/10/bin:/Users/Theo/.antigen/bundles/robbyrussell/oh-my-zsh/lib:/Users/Theo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git:/Users/Theo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/heroku:/Users/Theo/.antigen/bundles/zsh-users/zsh-syntax-highlighting
+  /Users/Theo/go/bin:/usr/local/share/npm/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Postgres.app/Contents/Versions/10/bin:/Users/Theo/.antigen/bundles/robbyrussell/oh-my-zsh/lib:/Users/Theo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/git:/Users/Theo/.antigen/bundles/robbyrussell/oh-my-zsh/plugins/heroku:/Users/Theo/.antigen/bundles/zsh-users/zsh-syntax-highlighting
 
 Yarn version: 
   1.5.1
@@ -15,7 +15,7 @@ Platform:
 
 npm manifest: 
   {
-    "name": "stringlib",
+    "name": "@theomjones/stringlib",
     "version": "0.1.0",
     "description": "Useful string functions",
     "main": "lib/bundle.js",
@@ -1866,14 +1866,14 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: https://registry.yarnpkg.com/stringlib: Package name too similar to existing packages; try renaming your package to '@theomjones/stringlib' and publishing with 'npm publish --access=public' instead
-      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:65019:18)
-      at Request.self.callback (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:132430:22)
-      at Request.emit (events.js:180:13)
-      at Request.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:133413:10)
-      at Request.emit (events.js:180:13)
-      at Gunzip.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:133333:12)
-      at Object.onceWrapper (events.js:272:13)
-      at Gunzip.emit (events.js:185:15)
-      at endReadableNT (_stream_readable.js:1106:12)
-      at process._tickCallback (internal/process/next_tick.js:178:19)
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:128791:13)
+      at Interface.emit (events.js:180:13)
+      at Interface._ttyWrite (readline.js:783:16)
+      at ReadStream.onkeypress (readline.js:163:10)
+      at ReadStream.emit (events.js:180:13)
+      at emitKeys (internal/readline.js:422:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1019:36)
+      at ReadStream.emit (events.js:180:13)
+      at addChunk (_stream_readable.js:274:12)
