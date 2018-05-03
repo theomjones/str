@@ -1,12 +1,26 @@
-# `str` - a Basic string library for browser and Node.
+# `stringlib` - a small JS string library for the browser and Node (WIP).
 
 ![build status](https://api.travis-ci.org/theomjones/str.svg?branch=master)
 
-<!-- ```shell
-yarn add str
+### Install
+
+```shell
+yarn add stringlib
 # OR
-npm install str --save
-``` -->
+npm install stringlib --save
+```
+
+### Usage
+
+```js
+//ES6
+import s from 'stringlib';
+
+// Node
+const s = require('stringlib');
+```
+
+### API
 
 ```js
 // Assert input is a string.
