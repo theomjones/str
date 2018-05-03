@@ -1,8 +1,8 @@
 {
   "name": "str",
   "version": "0.1.0",
-  "description": "Useful string functionsd",
-  "main": "index.js",
+  "description": "Useful string functions",
+  "main": "lib/bundle.js",
   "author": "theomjones@gmail.com",
   "license": "MIT",
   "private": false,
