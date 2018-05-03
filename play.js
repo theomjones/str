@@ -1,10 +1,7 @@
 const str = require('./lib/bundle');
 
-const s = str.slugify('the  good the bad');
+const s = str.slugify('the  good   the bad  ');
 console.log(s);
 
-const x = str.slugify('the  good the  !  £    bad');
+const x = str.slugify("one flew over the cucoo's nest");
 console.log(x);
-
-const y = str.slugify("toad's's");
-console.log(y);

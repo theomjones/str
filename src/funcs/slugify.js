@@ -17,19 +17,26 @@ export default function(s, delim) {
   // Create array
   let arr = s.split(' ');
 
-  // Remove spaces
-  arr = arr.filter(el => {
-    if (el != ' ') return el;
+  // Strip bad tings
+  let newArr = [];
+
+  arr.forEach(e => {
+    if (e !== "'" && e !== ' ' && e) {
+      newArr.push(e);
+    }
   });
 
   let newString;
 
   if (delim) {
-    newString = arr.join(delim);
+    newString = newArr.join(delim);
   } else {
-    newString = arr.join('-');
+    newString = newArr.join('-');
   }
 
+  // replace bad chars
+  let str = newString.replace(/'/g, '');
+
   // Encode to uri
-  return encodeURIComponent(newString);
+  return encodeURIComponent(str);
 }

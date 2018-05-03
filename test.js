@@ -116,7 +116,7 @@ describe('slugify', () => {
       },
       {
         in: "One Flew Over the Cuckoo's nest",
-        want: "one-flew-over-the-cuckoo's-nest",
+        want: 'one-flew-over-the-cuckoos-nest',
       },
     ];
 
@@ -124,8 +124,4 @@ describe('slugify', () => {
       assert.equal(str.slugify(c.in), c.want);
     });
   });
-});
-
-describe('helpers', () => {
-  it('should mutate the first letter correctly', () => {});
 });
