@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@theomjones/stringlib@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@theomjones/stringlib/-/stringlib-0.1.0.tgz#cc62a32f8ad8c7917e7e51879b3574c810b2790a"
+
 "@types/chai@^4.1.3":
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.1.3.tgz#b8a74352977a23b604c01aa784f5b793443fb7dc"

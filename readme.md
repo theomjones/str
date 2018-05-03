@@ -5,19 +5,19 @@
 ### Install
 
 ```shell
-yarn add stringlib
+yarn add @theomjones/stringlib
 # OR
-npm install stringlib --save
+npm install @theomjones/stringlib --save
 ```
 
 ### Usage
 
 ```js
 //ES6
-import s from 'stringlib';
+import s from '@theomjones/stringlib';
 
 // Node
-const s = require('stringlib');
+const s = require('@theomjones/stringlib');
 ```
 
 ### API

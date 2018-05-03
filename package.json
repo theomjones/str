@@ -17,5 +17,8 @@
     "test": "mocha",
     "build": "rollup -c",
     "clean": "rm ./lib/bundle.js ./lib/bundle.js.map"
+  },
+  "dependencies": {
+    "@theomjones/stringlib": "^0.1.0"
   }
 }
