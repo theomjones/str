@@ -15,7 +15,7 @@ Platform:
 
 npm manifest: 
   {
-    "name": "str",
+    "name": "stringlib",
     "version": "0.1.0",
     "description": "Useful string functions",
     "main": "lib/bundle.js",
@@ -1866,7 +1866,7 @@ Lockfile:
       window-size "0.1.0"
 
 Trace: 
-  Error: https://registry.yarnpkg.com/str: You do not have permission to publish "str". Are you logged in as the correct user?
+  Error: https://registry.yarnpkg.com/stringlib: Package name too similar to existing packages; try renaming your package to '@theomjones/stringlib' and publishing with 'npm publish --access=public' instead
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:65019:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:132430:22)
       at Request.emit (events.js:180:13)

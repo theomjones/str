@@ -1,6 +1,6 @@
 {
-  "name": "stringlib",
-  "version": "0.0.0",
+  "name": "@theomjones/stringlib",
+  "version": "0.1.0",
   "description": "Useful string functions",
   "main": "lib/bundle.js",
   "author": "theomjones@gmail.com",
